@@ -1,0 +1,50 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+
+
+/* Set a background image by replacing the URL below */
+body {
+  background: image-url('bg4.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.signb{
+	background-color: #000;
+	/*#00b4d8;*/
+}
+.signb:hover{
+	background-color: #fff;
+	color:#000;
+}
+
+.signb_secondary{
+	color:#222;
+}
+
+footer{
+	background-color: #f8f9fa !important;
+}
+
+.card-body h1{
+	font-family: 'Alegreya', serif;
+	text-decoration: underline;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	text-shadow: 1px 1px 10px #000;
+	/*background-color: #dee2e6;*/
+
+}
+.card-body p.lead{
+	font-family: 'Varela', sans-serif;
+	text-align: center;
+	padding-bottom: 4rem;
+	line-height: 3rem;
+
+}
+.signcard.card-body{
+	background-color: #f8f9fa !important;
+}
+
