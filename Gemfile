@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.0'
@@ -23,9 +23,10 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'devise'
 gem 'devise-bootstrap-views', '~>1.0'
-gem 'kimurai'
-# gem 'httparty'
-# gem 'nokogiri'
+# gem 'kimurai'
+gem 'httparty'
+gem 'nokogiri'
+gem 'byebug'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -59,9 +60,9 @@ group :test do
   gem 'webdrivers'
 end
 
-group :production do
-  gem 'pg'
-end
+# group :production do
+#   gem 'pg'
+# end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
